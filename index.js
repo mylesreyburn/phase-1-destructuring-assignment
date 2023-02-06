@@ -38,9 +38,9 @@ const nestedMuppet = {
   nestedPartner: 'Miss Piggy'
 };
 
+const {muppetName, color, song, job, partner} = muppet
+
 const {nestedName, nestedColor, album:{theMuppetMovie: {song1, song2, song3, song4}}, nestedJob, nestedPartner} = nestedMuppet
-
-
 
 // const {theMuppetMovie} = nestedMuppet.album
 
